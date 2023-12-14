@@ -23,5 +23,15 @@ const appMenuItems = <MenuItem>[
       tittle: 'Tarjetas',
       subtittle: 'Un contenedor estilizado',
       link: '/cards',
-      icon: Icons.credit_card)
+      icon: Icons.credit_card),
+  MenuItem(
+      tittle: 'ProgressIndicators',
+      subtittle: 'Generales y controlados',
+      link: '/progress',
+      icon: Icons.credit_card),
+  MenuItem(
+      tittle: 'SnackBars y dialogos',
+      subtittle: 'Indiocadores en pantallas',
+      link: '/snackbars',
+      icon: Icons.info_outline),
 ];
